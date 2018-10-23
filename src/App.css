@@ -1,0 +1,105 @@
+#root {
+    width: 100%;
+    height: 40.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 1.1em;
+}
+.app {
+    background-image: url('./images/field.png');
+    background-size: cover;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 70em;
+    border-style: none;
+    box-shadow: 0 0 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.form {
+    position: relative;
+    top: 9.8em;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 0;
+    font-size: 1em;
+    margin-left: 5em;
+    background-color: snow;
+}
+.input {
+    background-color: snow;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 1em;
+    width: 50%;
+    height: 2em;
+}
+.button {
+    border-style: none;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 1.2em;
+    width: 33%;
+    height: 1.75em;
+    background: lightgray;
+    background-color: lightcyan;
+    cursor: pointer;
+}
+.button:hover {
+    box-shadow: 0 0 5px;
+}
+.titles h1 {
+    color: Snow;
+    position: relative;
+    top: 1.2em;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 4em;
+}
+.p {
+    top: 0.3em;
+    position: relative;
+    font-size: 1.5em;
+}
+.titles {
+    position: relative;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.weather {
+    position: absolute;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    box-shadow: 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 1.5em;
+    height: auto;
+    width: 16.85em;
+    top: 8.85em;
+    right: 6.44em;
+}
+.icon {
+    margin-top: 0.75em;
+    height: 2.2em;
+    width: 2.2em;
+}
+.cond {
+    margin-bottom: 2em;
+}
